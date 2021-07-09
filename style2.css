@@ -1,0 +1,66 @@
+body{ width: 90%; margin-right: auto; margin-left: auto; background-color: lightgray;}
+.row{width: 100%; position: relative;}
+*{box-sizing: border-box;}
+
+@media(min-width: 992px) {
+.col-lg-1 {width: 8.3%;} .col-lg-2{width: 16.6%;}
+.col-lg-3{width: 25%;} .col-lg-4{width: 33%;}
+.col-lg-5{width: 41.6%} .col-lg-6{width: 50%;} .col-lg-7{58.33%}
+.col-lg-8{width: 66.6%} .col-lg-9{width: 75%}
+.col-lg-10{width: 83.3%} .col-lg-11{width: 91.6%}
+.col-lg-12{width: 100%}
+.col-lg-1 .col-lg-2 .col-lg-3 .col-lg-4 .col-lg-5 .col-lg-6 .col-lg-7
+.col-lg-8 .col-lg-9 .col-lg-10 .col-lg-11 .col-lg-12{float: left;}
+.beef{position: absolute; left: 33%; top: 0px;}
+.sushi{position: absolute; left: 66.6%; top: 0px;}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	.col-md-1 {width: 8.3%;} .col-md-2{width: 16.6%;}
+.col-md-3{width: 25%;} .col-md-4{width: 33%;}
+.col-md-5{width: 41.6%} .col-md-6{width: 50%;} .col-md-7{58.33%}
+.col-md-8{width: 66.6%} .col-md-9{width: 75%}
+.col-md-10{width: 83.3%} .col-md-11{width: 91.6%}
+.col-md-12{width: 100%}
+.col-md-1 .col-md-2 .col-md-3 .col-md-4 .col-md-5 .col-md-6 .col-md-7
+.col-md-8 .col-md-9 .col-md-10 .col-md-11 .col-md-12{float: left;}
+.beef{position: absolute; left: 50%; top: 0px}
+}
+
+@media(max-width: 767px) {.col-mn-1 {width: 8.3%;} .col-mn-2{width: 16.6%;}
+.col-mn-3{width: 25%;} .col-mn-4{width: 33%;}
+.col-mn-5{width: 41.6%} .col-mn-6{width: 50%;} .col-mn-7{58.33%}
+.col-mn-8{width: 66.6%} .col-mn-9{width: 75%}
+.col-mn-10{width: 83.3%} .col-mn-11{width: 91.6%}
+.col-mn-12{width: 100%}
+.col-mn-1 .col-mn-2 .col-mn-3 .col-mn-4 .col-mn-5 .col-mn-6 .col-mn-7
+.col-mn-8 .col-mn-9 .col-mn-10 .col-mn-11 .col-mn-12{float: left;}
+}
+h1{text-align: center; font-family: helvetica; font-size: 300%;}
+.chicken{padding: 40px;}
+.chicken>section{height: 340px; padding: 2px; 
+	background-color: lightcoral;  position: relative;}
+
+.chicken h2{position: absolute; right: 0px; top: 0px; 
+	width: 90px; height: 30px;
+background-color: lightcyan; border: 1px solid black; margin: 0px; }
+.chicken span{position: absolute; bottom: 10px;}
+
+.beef{padding: 40px;}
+.beef>section{height: 340px; padding: 2px; 
+	background-color: lightgreen;  position: relative;}
+
+.beef>section>h2{position: absolute; right: 0px; top: 0px; 
+	width: 90px; height: 30px;
+background-color: lightgoldenrodyellow; border: 1px solid black; margin: 0px;}
+.beef span{position: absolute; bottom: 10px;}
+
+.sushi{padding: 40px;}
+.sushi>section{height: 340px; padding: 2px; 
+	background-color: lightslategrey;  position: relative;}
+
+.sushi h2{position: absolute; right: 0px; top: 0px; 
+	width: 90px; height: 30px;
+background-color: lightsteelblue; border: 1px solid black; margin: 0px;}
+.sushi span{position: absolute; bottom: 10px;}
+
